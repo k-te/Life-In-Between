@@ -1,0 +1,11 @@
+@font-face {
+  font-family: FiraSans;
+  src: url(fonts/FiraSans-Regular.ttf); }
+
+  body {
+  background-color: #f4f4f4;
+  color: #666;
+  font-family: FiraSans; }
+
+@import 'm-menu.scss';
+@import 'm-main.scss';

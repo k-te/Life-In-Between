@@ -1,0 +1,10 @@
+{
+  "firebase": "FIREBASENAME",
+  "public": "dist",
+  "rules": "security-rules.json",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

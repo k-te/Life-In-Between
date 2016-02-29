@@ -1,0 +1,102 @@
+.main-header {
+	
+	background-color: white;
+    height: 172px;
+    box-shadow: 0 32px 74px rgba(0, 0, 0, 0.06);
+
+
+	.main-header__container {
+		
+    	height: 218px;
+	}
+
+
+
+	.main-header__container:after {
+	    background: url(../img/bottom.png) 50% 0px no-repeat;
+	    content: "";
+	    width: 247px;
+	    height: 62px;
+	    display: block;
+	    position: absolute;
+	    top: 171px;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	}
+
+	.main-header__nav {
+		text-align: center;
+		margin-top: 2%;
+
+		.col-md-2--zindexed {
+			z-index: 2;
+		}
+
+		.main-header__company-logo {
+			width: 138px;
+			height: 160px;
+			margin-right: 3%;
+			margin-top: 16%;
+		}
+
+		.logo-wrapper {
+			text-align: center;	
+		}
+
+		.main-header__first-nav-ul li,
+		.main-header__second-nav-ul li {
+			display: inline;
+		}
+
+		li.main-header__first-nav-li,
+		li.main-header__second-nav-li {
+			margin-right: 67px;
+			color: #333;
+			font-family: FiraSans;
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 13;
+			text-transform: uppercase;
+		
+		}
+	}
+
+}
+
+.header-pattern { 
+		margin-top: 0%;
+	    text-align: center;
+	    background: url(../img/pattern.png) no-repeat 50% 0;
+	    background-size: cover;
+	    z-index: -1;
+	    text-align: center;
+	    height: 200px;
+
+    .header-pattern__buttons {
+    	color: #666;
+		font-family: FiraSans;
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 6px;
+		text-transform: uppercase;
+
+    }
+    .pattern-buttons {
+		line-height: 38px;
+    }
+
+    .pattern-buttons.active {
+    	width: 50%;
+    	margin-left: 24%;
+		height: 39px;
+		background-color: #6c6;
+		background-image: -webkit-linear-gradient(bottom, rgba(51, 153, 51, 0.04) 0%, transparent 100%);
+		background-image: linear-gradient(to top, rgba(51, 153, 51, 0.04) 0%, transparent 100%);
+		border-radius: 19px;
+		box-shadow: 0 9px 29px rgba(0, 0, 0, 0.14);
+		line-height: 38px;
+		color: white;}
+
+    .row--margined {margin-top: 11%;}
+}
