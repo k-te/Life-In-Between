@@ -56,17 +56,15 @@
 			font-weight: 300;
 			line-height: 13;
 			text-transform: uppercase;
-		
 		}
 	}
-
 }
 
 .header-pattern { 
 		overflow: hidden;
 		margin-top: 0%;
 	    text-align: center;
-	    background: url(../img/pattern.png) no-repeat 50% 0;
+	    background: url(../img/pattern.png) no-repeat;
 	    background-size: cover;
 	    z-index: -1;
 	    text-align: center;
